@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;         /* Reset default margin on the body element */
+    }
+    iframe {
+      display: block;       /* iframes are inline by default */
+      background: #000;
+      border: none;         /* Reset default border */
+      width: 100%;
+      height: 100%;
+    }
+    body {
+      width: 480px;
+      height: 600px;
+    }
+  </style>
+</head>
+<body>
+  <iframe id="iframe" src="https://www.wordreference.com/" frameborder="0"></iframe>
+  <script src="popup.js"></script>
+</body>
+</html>

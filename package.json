@@ -1,0 +1,11 @@
+{
+  "name": "wr-search",
+  "version": "3.0.0",
+  "description": "WordReference Chrome extension",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Calogero Miraglia",
+  "license": "ISC"
+}

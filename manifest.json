@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "WordReference dictionary",
+  "version": "3.0",
+  "description": "Translate without leaving the page. Select the word to be translated and press Ctrl+Q.",
+  "author": "Calogero Miraglia <calogeromir@gmail.com>",
+  "permissions": [
+  ],
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "contentscript.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Q"
+      }
+    }
+  }
+}
