@@ -1,3 +1,3 @@
-chrome.runtime.onMessage.addListener(function(message) {
-  chrome.runtime.sendMessage(window.getSelection().toString().trim());
+chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
+  sendResponse(window.getSelection().toString().trim());
 });
