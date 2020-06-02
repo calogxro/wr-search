@@ -2,7 +2,7 @@
 
 Translate without leaving the page.
 
-[![Get the add-on for Firefox](get-the-addon.png)](https://addons.mozilla.org/en-US/firefox/addon/wordreference-dictionary/)
+[![Get the add-on for Firefox](img/get-the-addon.png)](https://addons.mozilla.org/en-US/firefox/addon/wordreference-dictionary/)
 
 ## How it works
 
