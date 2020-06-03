@@ -10,3 +10,9 @@ Translate without leaving the page.
 2. Press the toolbar button (or Ctrl+Shift+Q)
 
 The WordReference page is shown inside the extension's popup dialog.
+
+## Screenshots
+
+![Traslate a word](img/wrsearch-screen.png)
+
+![Select the dictionary](img/wrsearch-screen-options.png)

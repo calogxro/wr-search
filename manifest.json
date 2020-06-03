@@ -1,9 +1,12 @@
 {
   "manifest_version": 2,
   "name": "WordReference dictionary",
-  "version": "3.1",
-  "description": "Translate without leaving the page. Select the word to be translated and press Ctrl+Shift+Q.",
-  "author": "Calogero Miraglia <calogeromir@gmail.com>",
+  "version": "3.1.1",
+  "description": "Translate without leaving the page.",
+  "developer": {
+    "name": "calogero",
+    "url": "https://github.com/calog3r0/wr-search"
+  },
   "permissions": [
     "storage"
   ],
